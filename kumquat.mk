@@ -19,6 +19,9 @@ $(call inherit-product-if-exists, vendor/sony/kumquat/kumquat-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/sony/kumquat/overlay
 
+# Also add specific header path
+TARGET_SPECIFIC_HEADER_PATH := device/sony/kumquat/include
+
 # Inherit the montblanc-common definitions
 $(call inherit-product, device/sony/montblanc-common/montblanc.mk)
 

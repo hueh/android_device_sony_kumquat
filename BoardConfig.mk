@@ -6,7 +6,7 @@ USE_CAMERA_STUB := true
 #inherit from the common montblanc definitions
 -include device/sony/montblanc-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/kumquat/include
+TARGET_SPECIFIC_HEADER_PATH := device/sony/kumquat/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_kumquat_defconfig
 
