@@ -1,15 +1,7 @@
 [
  {
-    "repository": "TeamCanjica/android_device_sony_montblanc-common",
-    "target_path": "device/sony/montblanc-common"
- },
- {
     "repository": "CyanogenMod/android_hardware_sony_DASH",
     "target_path": "hardware/semc/dash",
     "branch": "cm-10.1"
- },
- {
-   "repository": "TeamCanjica/android_kernel_sony_u8500",
-   "target_path": "kernel/sony/u8500"
  }
 ]
