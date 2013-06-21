@@ -10,6 +10,10 @@ TARGET_SPECIFIC_HEADER_PATH := device/sony/kumquat/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_kumquat_defconfig
 
+
+# Audio testing
+COMMON_GLOBAL_CFLAGS += -DSONY_ICS_BLOBS
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
 
