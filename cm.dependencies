@@ -6,6 +6,7 @@
   {
     "repository": "CyanogenMod/android_hardware_sony_DASH",
     "target_path": "hardware/semc/dash"
+    "branch": "cm-10.1"
  },
  {
    "repository": "TeamCanjica/android_kernel_sony_u8500",
