@@ -12,7 +12,7 @@ TARGET_KERNEL_CONFIG := cm_montblanc_kumquat_defconfig
 
 
 # Audio testing
-COMMON_GLOBAL_CFLAGS += -DSONY_ICS_BLOBS
+COMMON_GLOBAL_CFLAGS += -DSONY_ICS_BLOBS -DICS_AUDIO_BLOB
 
 # Handling of EGL ICS blobs
 BOARD_EGL_NEEDS_LEGACY_FB := true
