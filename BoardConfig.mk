@@ -1,5 +1,8 @@
 USE_CAMERA_STUB := true
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/kumquat/bluetooth
+
 # inherit from the proprietary version
 -include vendor/sony/kumquat/BoardConfigVendor.mk
 
