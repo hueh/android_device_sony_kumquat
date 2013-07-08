@@ -13,10 +13,6 @@ TARGET_SPECIFIC_HEADER_PATH := device/sony/kumquat/include
 
 TARGET_KERNEL_CONFIG := cm_montblanc_kumquat_defconfig
 
-
-# Audio testing
-COMMON_GLOBAL_CFLAGS += -DSONY_ICS_BLOBS 
-
 # Handling of EGL ICS blobs
 BOARD_EGL_NEEDS_LEGACY_FB := true
 
