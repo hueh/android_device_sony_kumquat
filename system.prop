@@ -35,6 +35,10 @@ ro.telephony.call_ring.multiple=false
 ro.semc.product.user_storage=emmc_only
 ro.build.characteristics=nosdcard
 
+#RIL
+
+ro.telephony.ril_class=SonyU8500RIL
+
 # NFC
 ro.nfc.on.default=false
 ro.nfc.se.sim.enable=true
