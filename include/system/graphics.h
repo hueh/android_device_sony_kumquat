@@ -106,10 +106,8 @@ enum {
      * - an even width
      * - an even height
      * - a horizontal stride multiple of 16 pixels (32 bytes).
-     */
-    HAL_PIXEL_FORMAT_RAW_SENSOR = 0x20,
-
-    /*
+     
+     /*
      * Android binary blob graphics buffer format:
      *
      * This format is used to carry task-specific data which does not have a
@@ -123,7 +121,7 @@ enum {
      * size in bytes.
      */
     HAL_PIXEL_FORMAT_BLOB = 0x21,
-
+    
     /*
      * Android format indicating that the choice of format is entirely up to the
      * device-specific Gralloc implementation.
@@ -139,21 +137,18 @@ enum {
      *
      */
     HAL_PIXEL_FORMAT_IMPLEMENTATION_DEFINED = 0x22,
+    
+     */
+    HAL_PIXEL_FORMAT_RAW_SENSOR = 0x20,
 
-#ifdef STE_HARDWARE
     /* STE: Added Support of YUV42XMBN, required for Copybit CC acceleration */
     HAL_PIXEL_FORMAT_YCBCR42XMBN = 0xE,
-#endif
-
     /* Legacy formats (deprecated), used by ImageFormat.java */
     HAL_PIXEL_FORMAT_YCbCr_422_SP       = 0x10, // NV16
     HAL_PIXEL_FORMAT_YCrCb_420_SP       = 0x11, // NV21
-#ifdef STE_HARDWARE
     HAL_PIXEL_FORMAT_YCbCr_422_P        = 0x12,
     HAL_PIXEL_FORMAT_YCbCr_420_P        = 0x13,
-#endif
     HAL_PIXEL_FORMAT_YCbCr_422_I        = 0x14, // YUY2
-#ifdef STE_HARDWARE
     HAL_PIXEL_FORMAT_YCbCr_420_I        = 0x15,
     HAL_PIXEL_FORMAT_CbYCrY_422_I       = 0x16,
     HAL_PIXEL_FORMAT_CbYCrY_420_I       = 0x17,
@@ -163,7 +158,6 @@ enum {
     HAL_PIXEL_FORMAT_YCrCb_422_SP       = 0x23,
     HAL_PIXEL_FORMAT_YCrCb_422_P        = 0x24,
     HAL_PIXEL_FORMAT_YCrCb_420_P        = 0x25,
-#endif
 };
 
 
