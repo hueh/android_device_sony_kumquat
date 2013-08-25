@@ -11,7 +11,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/kumquat/bluetooth
 
 TARGET_SPECIFIC_HEADER_PATH := device/sony/kumquat/include
 
-TARGET_KERNEL_CONFIG := cm_montblanc_kumquat_defconfig
+TARGET_KERNEL_CONFIG := xperiau_defconfig
 
 # Handling of EGL ICS blobs
 BOARD_EGL_NEEDS_LEGACY_FB := true
